@@ -1,5 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.jumbotron {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  background-image: url(images/mom1.jpg);
+  background-size: cover;
+}
+.jumbotron .display-4 {
+  /* color: white; */
+  margin-top: 250px;
+  font-size: 2.125rem;
+  font-weight: bold;
+}
 
-.navbar {
-  background-color: black;
+.jumbotron .display-5 {
+  /* color: white; */
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* css MOBILE */
+/* @media (min-width: 470px) {
+  .logo {
+    float: left;
+    margin: 5px;
+  }
+  .jumbotron {
+    width: 100%;
+    height: auto;
+  }
+  .jumbotron .display-5 {
+    visibility: hidden;
+  }
+  /* .btn {
+    margin-top: -380px;
+  } */
+@media screen and (min-width: 480px) {
+  .jumbotron .display-5 {
+    visibility: visible;
+  }
 }
