@@ -9,4 +9,4 @@ function voucher(length) {
   return kode + result;
 }
 
-console.log(voucher(5));
+console.log(voucher(2));
