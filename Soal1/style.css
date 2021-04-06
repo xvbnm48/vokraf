@@ -44,7 +44,8 @@
     margin: 5px;
   }
   .jumbotron img {
-    margin: auto;
-    margin-left: auto;
+    width: auto;
+    height: 500px;
+    margin-right: auto;
   }
 }
