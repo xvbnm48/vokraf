@@ -35,8 +35,16 @@
   /* .btn {
     margin-top: -380px;
   } */
-@media screen and (min-width: 480px) {
+@media (max-width: 480px) {
   .jumbotron .display-5 {
-    visibility: visible;
+    display: none;
+  }
+  .logo {
+    margin-left: auto;
+    margin: 5px;
+  }
+  .jumbotron img {
+    margin: auto;
+    margin-left: auto;
   }
 }
